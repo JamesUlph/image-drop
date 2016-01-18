@@ -1,0 +1,26 @@
+{
+  "name": "image-drop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "webpack": "^1.12.2",
+    "babel-plugin-transform-object-assign": "^6.0.14",
+    "babel-preset-stage-0": "^6.1.2"
+  },
+  "dependencies": {
+    "connect-busboy": "0.0.2",
+    "cors": "^2.7.1",
+    "eventemitter3": "^1.1.1",
+    "express": "^4.13.3",
+    "multipart": "^0.1.5"
+  }
+}
